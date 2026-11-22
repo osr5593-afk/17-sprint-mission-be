@@ -5,3 +5,5 @@ class HttpException extends Error {
     this.name = name;
   }
 }
+
+module.exports = HttpException;
